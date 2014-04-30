@@ -34,17 +34,22 @@ This enables all of your code to reformat the NSLog output you already have in y
 To use the color functionality for the Xcode console, you have to include the Plugin XCodeColors (https://github.com/robbiehanson/XcodeColors). Just download the ZIP of the project and build it in XCode. Then restart Xcode.
 
 How it works
+------------   
+
 If your NSLog output starts with a #, the next signs are interpreted as a display command.
 
  All commands begin with a \#, i.e.
 
     NSLog(@"\#COLOR:%@", NSLOG_USER1_COLOR);  // Set User color for normal output in USER1_COLOR
+
  or
 
     NSLog(@"\#!Print this line in the %@", @"error color");
 
 Color Commands
-command	description
+--------------
+
+command	description     
 \#!	this single Output is displayed in the error color
 \#?	this single Output is displayed in the warning color
 \#.	this single Output is displayed in the info color
@@ -53,29 +58,24 @@ command	description
  
 
 Special commands
-These commands toggle the display until they are dis-/re-activated
+----------------
+
+These commands toggle the display until they are dis-/re-activated     
 
 command	description
-#SHOWFILENAME
-displays the .m filename before the output
-#SHOWFUNCTIONNAME
-displays the methodname before the output
-#SHOWLINENUMBER    	
-displays the line number before the output
- #HIDEFILENAME
-hides the .m filename before the output
- #HIDEFUNCTIONNAME  
-hides the methodname before the output
- #HIDELINENUMBER    
-hides the line number before the output
-#LOGTOFILE	sends logging to a file named console.log in the users filesystem. This is always on if the user is not attached to an xcode/simulator system. Good for getting infos from a remote user/tester
-#TEST	Displays several output variants with the extended NSLog functionality
-#CLEAR	Delets the logging file and restarts again / clears the screen
-#NSLOGINFO	Shows general loggin information
-#TIMESTAMP	prints a timestamp
-#-	print a new (empty) line
- #DISPLAYONLY xx
-display only NSLog commands that match the state xx, i.e.  NSLog(@"#DISPLAYONLY %d", NSLOG_WARNING + NSLOG_USER1);
+\#SHOWFILENAME      displays the .m filename before the output              
+\#SHOWFUNCTIONNAME  displays the methodname before the output                
+\#SHOWLINENUMBER    displays the line number before the output         
+\#HIDEFILENAME      hides the .m filename before the output             
+\#HIDEFUNCTIONNAME  hides the methodname before the output                
+\#HIDELINENUMBER    hides the line number before the output                   
+\#LOGTOFILE	sends logging to a file named console.log in the users filesystem. This is always on if the user is not attached to an xcode/simulator system. Good for getting infos from a remote user/tester              
+\#TEST	Displays several output variants with the extended NSLog functionality            
+\#CLEAR	Delets the logging file and restarts again / clears the screen          
+\#NSLOGINFO	Shows general loggin information      
+\#TIMESTAMP	prints a timestamp       
+\#-	print a new (empty) line       
+\#DISPLAYONLY xx  display only NSLog commands that match the state xx, i.e.  NSLog(@"#DISPLAYONLY %d", NSLOG_WARNING + NSLOG_USER1);          
  
 
 NSLog Samples
