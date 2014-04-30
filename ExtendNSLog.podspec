@@ -9,11 +9,6 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
 
   s.name         = "ExtendNSLog"
   s.version      = "1.0.0"
@@ -24,7 +19,7 @@ Pod::Spec.new do |s|
 
                    What I do is to extend NSLog. So if you install ExtendNSLog ... fine, you get all the formatted individual information and layout. If not ... well, no error. No problem,  The original NSLog will work as well 
 
-                   
+                   DESC
 
   s.homepage     = "https://github.com/Tintenklecks/ExtendNSLog"
   # s.screenshots  = "https://github.com/Tintenklecks/ExtendNSLog/ExtendNSLog.png", "https://github.com/Tintenklecks/ExtendNSLog/ExtendNSLog2.png"
@@ -37,8 +32,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = 'MIT (example)'
-  # s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
+  #s.license      = 'MIT (example)'
+   s.license      = { :type => 'MIT', :file => 'MITLicense' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -77,10 +72,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files  = 'ExtendNSLog/*.{h,m}'
+#  s.exclude_files = 'Classes/Exclude'
 
-  # s.public_header_files = 'Classes/**/*.h'
+  # s.public_header_files = 'ExtendNSLog/*.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
