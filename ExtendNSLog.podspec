@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "ExtendNSLog"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0 beta"
   s.summary      = "A command enhancement to NSLog "
 
   s.description  = <<-DESC
