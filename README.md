@@ -8,22 +8,22 @@ Usage
 
 Once you have included the files (ExtendNSLog.h and ExtendNSLog.m) I recommend that you include them in your YOURAPPLICATION-Prefix.pch
 Just insert the line
-    #import "ExtendNSLog.h"
+    \#import "ExtendNSLog.h"
  
 then your Prefix file should look a bit like that 
 
 `
- #import <Availability.h>
+ \#import <Availability.h>
 
- #ifndef __IPHONE_3_0
-#warning "This project uses features only available in iOS SDK 3.0 and later."
-#endif
+ \#ifndef __IPHONE_3_0
+\#warning "This project uses features only available in iOS SDK 3.0 and later."
+\#endif
 
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-    #import "ExtendNSLog.h"
-#endif
+\#ifdef __OBJC__
+    \#import <UIKit/UIKit.h>
+    \#import <Foundation/Foundation.h>
+    \#import "ExtendNSLog.h"
+\#endif
 `
 
 This enables all of your code to reformat the NSLog output you already have in your code without changing a single line of code.
@@ -33,20 +33,20 @@ To use the color functionality for the Xcode console, you have to include the Pl
 How it works
 If your NSLog output starts with a #, the next signs are interpreted as a display command.
 
- All commands begin with a #, i.e.
+ All commands begin with a \#, i.e.
 
-    NSLog(@"#COLOR:%@", NSLOG_USER1_COLOR);  // Set User color for normal output in USER1_COLOR
+    NSLog(@"\#COLOR:%@", NSLOG_USER1_COLOR);  // Set User color for normal output in USER1_COLOR
  or
 
-    NSLog(@"#!Print this line in the %@", @"error color");
+    NSLog(@"\#!Print this line in the %@", @"error color");
 
 Color Commands
 command	description
-#!	this single Output is displayed in the error color
-#?	this single Output is displayed in the warning color
-#.	this single Output is displayed in the info color
-#0	this single Output is displayed in the default color
-#1..#6	this single Output is displayed in the NSLOG_USER_1 (..6) color
+\#!	this single Output is displayed in the error color
+\#?	this single Output is displayed in the warning color
+\#.	this single Output is displayed in the info color
+\#0	this single Output is displayed in the default color
+\#1..\#6	this single Output is displayed in the NSLOG_USER_1 (..6) color
  
 
 Special commands
