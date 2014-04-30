@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3FD5B1191114BB006BE59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3FD5B0191114BB006BE59E /* Foundation.framework */; };
+		6D3FD5B3191114BB006BE59E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3FD5B2191114BB006BE59E /* CoreGraphics.framework */; };
+		6D3FD5B5191114BB006BE59E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3FD5B4191114BB006BE59E /* UIKit.framework */; };
+		6D3FD5BB191114BB006BE59E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D3FD5B9191114BB006BE59E /* InfoPlist.strings */; };
+		6D3FD5BD191114BB006BE59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3FD5BC191114BB006BE59E /* main.m */; };
+		6D3FD5C1191114BB006BE59E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3FD5C0191114BB006BE59E /* AppDelegate.m */; };
+		6D3FD5C3191114BB006BE59E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3FD5C2191114BB006BE59E /* Images.xcassets */; };
+		6D3FD5E219111520006BE59E /* ExtendNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3FD5E119111520006BE59E /* ExtendNSLog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D3FD5AD191114BB006BE59E /* ExtendedNSLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtendedNSLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3FD5B0191114BB006BE59E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D3FD5B2191114BB006BE59E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D3FD5B4191114BB006BE59E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D3FD5B8191114BB006BE59E /* ExtendedNSLogDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExtendedNSLogDemo-Info.plist"; sourceTree = "<group>"; };
+		6D3FD5BA191114BB006BE59E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D3FD5BC191114BB006BE59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D3FD5BE191114BB006BE59E /* ExtendedNSLogDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExtendedNSLogDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6D3FD5BF191114BB006BE59E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D3FD5C0191114BB006BE59E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D3FD5C2191114BB006BE59E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D3FD5C9191114BB006BE59E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D3FD5E019111520006BE59E /* ExtendNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendNSLog.h; sourceTree = "<group>"; };
+		6D3FD5E119111520006BE59E /* ExtendNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendNSLog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D3FD5AA191114BB006BE59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3FD5B3191114BB006BE59E /* CoreGraphics.framework in Frameworks */,
+				6D3FD5B5191114BB006BE59E /* UIKit.framework in Frameworks */,
+				6D3FD5B1191114BB006BE59E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3FD5A4191114BB006BE59E = {
+			isa = PBXGroup;
+			children = (
+				6D3FD5B6191114BB006BE59E /* ExtendedNSLogDemo */,
+				6D3FD5AF191114BB006BE59E /* Frameworks */,
+				6D3FD5AE191114BB006BE59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D3FD5AE191114BB006BE59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FD5AD191114BB006BE59E /* ExtendedNSLogDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D3FD5AF191114BB006BE59E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FD5B0191114BB006BE59E /* Foundation.framework */,
+				6D3FD5B2191114BB006BE59E /* CoreGraphics.framework */,
+				6D3FD5B4191114BB006BE59E /* UIKit.framework */,
+				6D3FD5C9191114BB006BE59E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D3FD5B6191114BB006BE59E /* ExtendedNSLogDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FD5DF19111520006BE59E /* ExtendNSLog */,
+				6D3FD5BF191114BB006BE59E /* AppDelegate.h */,
+				6D3FD5C0191114BB006BE59E /* AppDelegate.m */,
+				6D3FD5C2191114BB006BE59E /* Images.xcassets */,
+				6D3FD5B7191114BB006BE59E /* Supporting Files */,
+			);
+			path = ExtendedNSLogDemo;
+			sourceTree = "<group>";
+		};
+		6D3FD5B7191114BB006BE59E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FD5B8191114BB006BE59E /* ExtendedNSLogDemo-Info.plist */,
+				6D3FD5B9191114BB006BE59E /* InfoPlist.strings */,
+				6D3FD5BC191114BB006BE59E /* main.m */,
+				6D3FD5BE191114BB006BE59E /* ExtendedNSLogDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D3FD5DF19111520006BE59E /* ExtendNSLog */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FD5E019111520006BE59E /* ExtendNSLog.h */,
+				6D3FD5E119111520006BE59E /* ExtendNSLog.m */,
+			);
+			path = ExtendNSLog;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D3FD5AC191114BB006BE59E /* ExtendedNSLogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3FD5D9191114BB006BE59E /* Build configuration list for PBXNativeTarget "ExtendedNSLogDemo" */;
+			buildPhases = (
+				6D3FD5A9191114BB006BE59E /* Sources */,
+				6D3FD5AA191114BB006BE59E /* Frameworks */,
+				6D3FD5AB191114BB006BE59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtendedNSLogDemo;
+			productName = ExtendedNSLogDemo;
+			productReference = 6D3FD5AD191114BB006BE59E /* ExtendedNSLogDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D3FD5A5191114BB006BE59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IBMobile;
+			};
+			buildConfigurationList = 6D3FD5A8191114BB006BE59E /* Build configuration list for PBXProject "ExtendedNSLogDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D3FD5A4191114BB006BE59E;
+			productRefGroup = 6D3FD5AE191114BB006BE59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D3FD5AC191114BB006BE59E /* ExtendedNSLogDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D3FD5AB191114BB006BE59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3FD5BB191114BB006BE59E /* InfoPlist.strings in Resources */,
+				6D3FD5C3191114BB006BE59E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D3FD5A9191114BB006BE59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3FD5C1191114BB006BE59E /* AppDelegate.m in Sources */,
+				6D3FD5E219111520006BE59E /* ExtendNSLog.m in Sources */,
+				6D3FD5BD191114BB006BE59E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D3FD5B9191114BB006BE59E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D3FD5BA191114BB006BE59E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D3FD5D7191114BB006BE59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D3FD5D8191114BB006BE59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D3FD5DA191114BB006BE59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExtendedNSLogDemo/ExtendedNSLogDemo-Prefix.pch";
+				INFOPLIST_FILE = "ExtendedNSLogDemo/ExtendedNSLogDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D3FD5DB191114BB006BE59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExtendedNSLogDemo/ExtendedNSLogDemo-Prefix.pch";
+				INFOPLIST_FILE = "ExtendedNSLogDemo/ExtendedNSLogDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D3FD5A8191114BB006BE59E /* Build configuration list for PBXProject "ExtendedNSLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3FD5D7191114BB006BE59E /* Debug */,
+				6D3FD5D8191114BB006BE59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3FD5D9191114BB006BE59E /* Build configuration list for PBXNativeTarget "ExtendedNSLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3FD5DA191114BB006BE59E /* Debug */,
+				6D3FD5DB191114BB006BE59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D3FD5A5191114BB006BE59E /* Project object */;
+}
