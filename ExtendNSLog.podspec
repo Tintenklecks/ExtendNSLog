@@ -22,17 +22,12 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    I use this extened NSLog mechanism in my projects, because I want control on console debug colors and information to be displayed. I know there are huge libraries out there. But once you don´t have the needed files while delivering, the special log commands like logWarning(.....) and so on can´t be used.
 
-                   What I do is to extend NSLog. So if you install ExtendNSLog ... fine, you get all the formatted individual information and layout. If not ... well, no error. No proble,  The original NSLog will work as well 
+                   What I do is to extend NSLog. So if you install ExtendNSLog ... fine, you get all the formatted individual information and layout. If not ... well, no error. No problem,  The original NSLog will work as well 
 
                    
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
 
-  s.homepage     = "http://EXAMPLE/ExtendNSLog"
-  # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage     = "https://github.com/Tintenklecks/ExtendNSLog"
+  # s.screenshots  = "https://github.com/Tintenklecks/ExtendNSLog/ExtendNSLog.png", "https://github.com/Tintenklecks/ExtendNSLog/ExtendNSLog2.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -54,16 +49,9 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "Ingo" => "ib@cephei.com" }
-  # s.authors          = { "Ingo" => "ib@cephei.com", "other author" => "email@address.com" }
-  # s.author           = 'Ingo', 'other author'
-  # s.social_media_url = "http://twitter.com/Ingo"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
   # s.platform     = :ios
   # s.platform     = :ios, '5.0'
 
@@ -78,7 +66,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/ExtendNSLog.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Tintenklecks/ExtendNSLog.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
