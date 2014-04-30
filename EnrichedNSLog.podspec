@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.name         = "ExtendNSLog"
+  s.name         = "EnrichedNSLog"
   s.version      = "1.0.0"
   s.summary      = "A command enhancement to NSLog "
 
   s.description  = <<-DESC
                    I use this extened NSLog mechanism in my projects, because I want control on console debug colors and information to be displayed. I know there are huge libraries out there. But once you don´t have the needed files while delivering, the special log commands like logWarning(.....) and so on can´t be used.
 
-                   What I do is to extend NSLog. So if you install ExtendNSLog ... fine, you get all the formatted individual information and layout. If not ... well, no error. No problem,  The original NSLog will work as well 
+                   What I do is to extend NSLog. So if you install EnrichNSLog ... fine, you get all the formatted individual information and layout. If not ... well, no error. No problem,  The original NSLog will work as well 
 
                    DESC
 
