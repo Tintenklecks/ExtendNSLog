@@ -4,7 +4,7 @@ ExtendNSLog
 This is an extension for normal NSLog that controls layout, colors and additional information
 
 Usage
-=====
+-------
 
 Once you have included the files (ExtendNSLog.h and ExtendNSLog.m) I recommend that you include them in your YOURAPPLICATION-Prefix.pch    
     
