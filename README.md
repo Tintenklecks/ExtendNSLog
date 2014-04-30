@@ -13,7 +13,7 @@ Just insert the line
      
 then your Prefix file should look a bit like that     
 
-`    
+<code>    
  \#import <Availability.h>    
     
  \#ifndef \_\_IPHONE_3_0    
@@ -25,7 +25,7 @@ then your Prefix file should look a bit like that
     \#import <Foundation/Foundation.h>    
     \#import "ExtendNSLog.h"    
 \#endif    
-`    
+</code>    
 
 
 
