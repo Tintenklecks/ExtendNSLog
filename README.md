@@ -16,11 +16,11 @@ then your Prefix file should look a bit like that
 `    
  \#import <Availability.h>    
     
- \#ifndef __IPHONE_3_0    
+ \#ifndef \_\_IPHONE_3_0    
 \#warning "This project uses features only available in iOS SDK 3.0 and later."    
 \#endif    
     
-\#ifdef __OBJC__    
+\#ifdef \_\_OBJC\_\_    
     \#import <UIKit/UIKit.h>    
     \#import <Foundation/Foundation.h>    
     \#import "ExtendNSLog.h"    
