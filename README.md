@@ -1,7 +1,10 @@
 ExtendNSLog
 =========
 
-This is an extension for normal NSLog that controls layout, colors and additional information
+This is an extension for normal NSLog that controls layout, colors and additional information without changing the NSLog command to ALOG, BLOG, DEBLOG or whatever. If the ExtendNSLog is missing somewhere ... well, that´s OK. Else you get an output like that:
+
+![Output of NSLog(@"#TEST")](./ExtendNSLog2.png)
+
 
 Usage
 -------
@@ -30,6 +33,8 @@ then your Prefix file should look a bit like that
 
 This enables all of your code to reformat the NSLog output you already have in your code without changing a single line of code.
 
+
+
 To use the color functionality for the Xcode console, you have to include the Plugin XCodeColors ([https://github.com/robbiehanson/XcodeColors](https://github.com/robbiehanson/XcodeColors)). Just download the ZIP of the project and build it in XCode. Then restart Xcode.
 
 How it works
@@ -48,16 +53,16 @@ If your NSLog output starts with a #, the next signs are interpreted as a displa
 Color Commands
 --------------
 
-command	description     
-\#!	this single Output is displayed in the error color
+***command	description***     
+**#!**	this single Output is displayed in the error color
 
-\#?	this single Output is displayed in the warning color
+**#?**	this single Output is displayed in the warning color
 
-\#.	this single Output is displayed in the info color
+**#.**	this single Output is displayed in the info color
 
-\#0	this single Output is displayed in the default color
+**#0**	this single Output is displayed in the default color
 
-\#1..\#6	this single Output is displayed in the NSLOG_USER_1 (..6) color
+**#1..#6**	this single Output is displayed in the NSLOG_USER_1 (..6) color
  
 
 Special commands
@@ -65,7 +70,7 @@ Special commands
 
 These commands toggle the display until they are dis-/re-activated     
 
-command	description
+***command	description***
 
 \#**SHOWFILENAME**	displays the .m filename before the output              
 
@@ -131,7 +136,7 @@ NSLog Samples
  
 this code will result in the following output 
 
-![Output of NSLog(@"#TEST")](./ExtendNSLog.png)
+![Output](./ExtendNSLog.png)
  
 
 
