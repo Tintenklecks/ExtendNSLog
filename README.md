@@ -1,9 +1,10 @@
 ExtendNSLog
-===========
+=========
 
 This is an extension for normal NSLog that controls layout, colors and additional information
 
 Usage
+=====
 
 Once you have included the files (ExtendNSLog.h and ExtendNSLog.m) I recommend that you include them in your YOURAPPLICATION-Prefix.pch
 Just insert the line
@@ -12,9 +13,10 @@ Just insert the line
 then your Prefix file should look a bit like that 
 
 
-#import <Availability.h>
+ #
+ import <Availability.h>
 
-#ifndef __IPHONE_3_0
+ #ifndef __IPHONE_3_0
 #warning "This project uses features only available in iOS SDK 3.0 and later."
 #endif
 
