@@ -13,8 +13,7 @@ Just insert the line
 then your Prefix file should look a bit like that 
 
 
- #
- import <Availability.h>
+ #import <Availability.h>
 
  #ifndef __IPHONE_3_0
 #warning "This project uses features only available in iOS SDK 3.0 and later."
