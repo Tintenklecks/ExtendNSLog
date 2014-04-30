@@ -12,7 +12,7 @@ Just insert the line
  
 then your Prefix file should look a bit like that 
 
-
+`
  #import <Availability.h>
 
  #ifndef __IPHONE_3_0
@@ -24,7 +24,7 @@ then your Prefix file should look a bit like that
     #import <Foundation/Foundation.h>
     #import "ExtendNSLog.h"
 #endif
-
+`
 
 This enables all of your code to reformat the NSLog output you already have in your code without changing a single line of code.
 
