@@ -137,6 +137,21 @@ NSLog Samples
 this code will result in the following output 
 
 ![Output](./ExtendNSLog.png)
+
+
+#Installation
+Well, the easiest way is - as usual - CocoaPods
+
+    pod 'EnrichedNSLog', '~> 1.0'
+ 
+But if you don´t want to use pods, just drag the two files **ExtendNSLog.h** and **ExtendNSLog.m** into your project. 
+ 
+**And in both cases**, to enrich the NSLog output, just edit your .prefix file (normally in the **Supportig files** group) and insert the import-line 
+     
+`#import "ExtendNSLog.h"`    
+     
+so all NSLog outputs can be enriched by the mentioned commands.
+ 
  
 
 
