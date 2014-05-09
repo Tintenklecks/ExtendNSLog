@@ -37,14 +37,14 @@ NSString *colorString(NSString *foreground, NSString *background) {
 	int fgRed, fgGreen, fgBlue;
 	int bgRed, bgGreen, bgBlue;
     
-	fgRed = fgColor & 0xFF;
-	bgRed = bgColor & 0xFF;
+	fgBlue = fgColor & 0xFF;
+	bgBlue = bgColor & 0xFF;
     
 	fgGreen = (fgColor >> 8) & 0xFF;
 	bgGreen = (bgColor >> 8) & 0xFF;
     
-	fgBlue = (fgColor >> 16) & 0xFF;
-	bgBlue = (bgColor >> 16) & 0xFF;
+	fgRed = (fgColor >> 16) & 0xFF;
+	bgRed = (bgColor >> 16) & 0xFF;
     
     
     
