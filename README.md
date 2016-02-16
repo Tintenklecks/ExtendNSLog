@@ -35,7 +35,7 @@ This enables all of your code to reformat the NSLog output you already have in y
 
 
 
-To use the color functionality for the Xcode console, you have to include the Plugin XCodeColors ([https://github.com/robbiehanson/XcodeColors](https://github.com/robbiehanson/XcodeColors)). Just download the ZIP of the project and build it in XCode. Then restart Xcode.
+To use the color functionality for the Xcode console, you have to include the Plugin XcodeColors ([https://github.com/robbiehanson/XcodeColors](https://github.com/robbiehanson/XcodeColors)). Just download the ZIP of the project and build it in Xcode. Then restart Xcode.
 
 How it works
 ------------   
